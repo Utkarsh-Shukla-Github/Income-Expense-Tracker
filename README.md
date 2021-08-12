@@ -1,4 +1,4 @@
-#Income - Expense - Tracker
+# Income - Expense - Tracker
 
 A smart, easy-to-use reactapp that allows you to track and categorize your in-and-out money.
 
