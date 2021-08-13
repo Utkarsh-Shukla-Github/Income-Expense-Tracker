@@ -4,4 +4,4 @@ A smart, easy-to-use reactapp that allows you to track and categorize your in-an
 
 Deployed link : https://income-expense-tracker-reactjs.netlify.app/
 
-Technologies Used : React | Context API | Local Storage | Material UI | Speechly
+Technologies Used : ReactJS | Context API | Local Storage | Material UI | Speechly
