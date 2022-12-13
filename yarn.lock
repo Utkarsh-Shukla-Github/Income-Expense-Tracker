@@ -2608,12 +2608,11 @@
     "@sinonjs/commons" "^1.7.0"
 
 "@speechly/browser-client@^1.0.15":
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/@speechly/browser-client/-/browser-client-1.0.17.tgz#e243c78e538f912ce26a67873bdd799344ce04a2"
-  integrity sha512-T6+EEk14/lLYhSB7z4lH4NHUEk9VGHHgt6RSII2e4P0opUQ+mIVbGcfTURmw5GHgCxWuJIbyxcamQC6F7EjYQQ==
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@speechly/browser-client/-/browser-client-1.5.0.tgz#42de041d041e2ad57666c4fec69ca984a5d36a0e"
+  integrity sha512-sAhLuwV1YMoMoe3mY8WgT3C4+89FimBj0oAPMAtxl7PdWWWAAvWRqB1n9MzTaDzGN3mvu9tSkqrS+DHWU4jw4A==
   dependencies:
     base-64 "^0.1.0"
-    locale-code "^2.0.2"
     uuid "^8.0.0"
 
 "@speechly/browser-ui@>=3.13.0":
@@ -3871,7 +3870,7 @@ balanced-match@^1.0.0:
 base-64@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/base-64/-/base-64-0.1.0.tgz#780a99c84e7d600260361511c4877613bf24f6bb"
-  integrity sha1-eAqZyE59YAJgNhURxId2E78k9rs=
+  integrity sha512-Y5gU45svrR5tI2Vt/X9GPd3L0HNIKzGu202EjxrXMpuc2V2CiKgemAbUUsqYmZJvPtCXoUKjNZwBJzsNScUbXA==
 
 batch@0.6.1:
   version "0.6.1"
@@ -6442,25 +6441,6 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
 
-iso-3166-1-alpha-2@~1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/iso-3166-1-alpha-2/-/iso-3166-1-alpha-2-1.0.0.tgz#bc9e0bb94e584df5468a932997a28552e26f97ac"
-  integrity sha1-vJ4LuU5YTfVGipMpl6KFUuJvl6w=
-  dependencies:
-    mout "^0.11.0"
-
-iso-639-1-zh@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/iso-639-1-zh/-/iso-639-1-zh-2.0.4.tgz#61b577d14ee8b0c2c8e73697a3c894fe02dbd541"
-  integrity sha1-YbV30U7osMLI5zaXo8iU/gLb1UE=
-  dependencies:
-    iso-639-1 "^2.0.0"
-
-iso-639-1@^2.0.0:
-  version "2.1.9"
-  resolved "https://registry.yarnpkg.com/iso-639-1/-/iso-639-1-2.1.9.tgz#e41b11d4f1808e5316d0252c3fa16eeb9b37bb58"
-  integrity sha512-owRu9up+Cpx/hwSzm83j6G8PtC7U99UCtPVItsafefNfEgMl+pi8KBwhXwJkJfp6IouyYWFxj8n24SvCWpKZEQ==
-
 istanbul-lib-coverage@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/istanbul-lib-coverage/-/istanbul-lib-coverage-3.0.0.tgz#f5944a37c70b550b02a78a5c3b2055b280cec8ec"
@@ -7318,14 +7298,6 @@ loader-utils@^3.2.0:
   resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-3.2.1.tgz#4fb104b599daafd82ef3e1a41fb9265f87e1f576"
   integrity sha512-ZvFw1KWS3GVyYBYb7qkmRM/WwL2TQQBxgCK62rlvm4WpVQ23Nb4tYjApUlfjrEGvOs7KHEsmyUn75OHZrJMWPw==
 
-locale-code@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/locale-code/-/locale-code-2.0.2.tgz#660d80c5825d8fe9f3ba4a72de5716833ec7d0ed"
-  integrity sha512-wNcUMwk6Nlc10pnZZXWtKArAOZHhH8p2vohPEIENg7ImwMrib/CwKSvyV4g9Wm7KjylyHzXnEMz4i/W3w57wlw==
-  dependencies:
-    iso-3166-1-alpha-2 "~1.0.0"
-    iso-639-1-zh "^2.0.4"
-
 locate-path@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/locate-path/-/locate-path-3.0.0.tgz#dbec3b3ab759758071b58fe59fc41871af21400e"
@@ -7564,11 +7536,6 @@ mkdirp@~0.5.1:
   integrity sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==
   dependencies:
     minimist "^1.2.5"
-
-mout@^0.11.0:
-  version "0.11.1"
-  resolved "https://registry.yarnpkg.com/mout/-/mout-0.11.1.tgz#ba3611df5f0e5b1ffbfd01166b8f02d1f5fa2b99"
-  integrity sha1-ujYR318OWx/7/QEWa48C0fX6K5k=
 
 ms@2.0.0:
   version "2.0.0"
